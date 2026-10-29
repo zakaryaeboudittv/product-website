@@ -6,298 +6,290 @@ sidebar_position: 23
 
 ![IEI logo](./assets/iei-logo.png)
 
-# Final evidence report
+# Final evidence report and recommendation
 
-## Executive synthesis
+## Decision for the Product Committee
 
-The evidence supports a **conditional go** for a narrow Cardano position in assurance and conditional settlement for open AI-agent services. Cardano should focus on machine-delivered services where independent parties need bounded authority, conditional release, refunds or a durable shared receipt.
+We recommend a **conditional go**. Cardano has a credible role in a small but potentially useful part of the AI agent market: services where a buyer wants payment held until agreed work is delivered, clear refund rules, and a simple record of what happened.
 
-The evidence does not support positioning Cardano as a general AI chain, the leading machine-payment network, a decentralised compute or model market, or a system that makes AI safe or verified. Those positions lack buyer, distribution and Cardano-dependent outcome evidence.
+This is narrower than an "AI chain" strategy. The evidence does not support positioning Cardano as the leading network for machine payments, AI models, computing power or general AI applications. It also does not support claims that Cardano makes AI safe or verifies the quality of an AI result.
 
-Masumi and Sokosumi are the strongest current Cardano proof point. They show a live combination of agent registration, escrow-based payment, refunds and service records. The activity is observable, but the public data does not establish unique external buyers, paid conversion, repeat use, accepted outcomes or product-market fit.
+The strongest starting point is Masumi and Sokosumi. They already combine agent registration, escrow, refunds and service records on Cardano. They prove that the system can operate. The public data does not yet prove that independent customers are paying, returning or receiving outcomes they accept.
 
-Cardano's main strategic constraint is distribution. Open payment, agent and authorization standards reach developers through existing SDKs, wallets, stablecoins and platforms. Cardano should integrate with those standards and test whether its conditional-settlement feature solves a problem that buyers value enough to justify the added integration.
+Cardano's main weakness is market access. Competing payment systems already reach developers through familiar software tools, wallets, stablecoins and commercial platforms. Cardano should therefore work with open standards rather than ask users to adopt a separate Cardano system.
 
-Further funding should require independent buyer demand, open interoperability, usable wallet and settlement access, production outcome data and a clear Cardano-dependent benefit. The next decision should occur before any product or pilot grant.
+The Product Committee should only consider implementation funding after three practical tests:
 
-## Research scope
+1. Independent buyers confirm that the problem matters and commit to a paid test.
+2. An external developer shows that the Cardano service can connect to existing payment, wallet and authorization systems without excessive work.
+3. A buyer, auditor or risk owner confirms that the Cardano record helps them make a real payment, risk or dispute decision.
 
-The study answered the RFP 09 decision gates and produced the contracted decision outputs. It covered:
+In this report, **conditional settlement** means that funds are released only when agreed conditions are met. A **receipt** means a small, tamper-evident record of the authority, payment and outcome references needed for a later check or dispute. These terms do not imply that the blockchain can judge whether an AI answer is correct.
 
-- external demand for AI-agent payments, services and assurance;
-- Cardano technical fit against buyer requirements;
-- current Cardano and Cardano-adjacent AI activity;
-- use-case prioritisation and competitive alternatives;
-- buyer, adopter and audience credibility;
-- delivery, revenue, transaction and Cardano-side value pathways;
-- narrative stress tests and a final strategic posture; and
-- cross-RFP handoffs.
+## What the study covered
 
-The work did not include product development, pilot execution, protocol implementation, a full enterprise-readiness assessment, a general Cardano brand study, a stablecoin-liquidity strategy or the optional proposal add-ons. The optional add-ons were an extended ten-interview package, deep verification of one named deployment and six-month monitoring of the recommendation conditions.
+The study examined the commercial case for Cardano in AI agent services. It asked:
 
-## Method
+- Is there a real buyer problem?
+- Does the problem require blockchain infrastructure?
+- Does Cardano offer something useful compared with existing alternatives?
+- Can Cardano reach the relevant buyers and delivery partners?
+- What evidence would justify further investment?
 
-### Screening-first research design
+The work covered market demand, buyer requirements, Cardano's technical fit, current activity, competing solutions, priority use cases and routes to market. It also tested the claims that Cardano could credibly make to different audiences.
 
-The research began with a broad screen of AI-related opportunities and narrowed the analysis to use cases with plausible commercial demand, a reason for blockchain infrastructure, a Cardano-relevant capability and a reachable delivery route.
+The work did not include product development, a pilot, a full technical audit, a general Cardano brand study or a stablecoin strategy. It also excluded the optional proposal add-ons: ten additional interviews, a deep review of one deployment and six months of monitoring.
 
-The scoring rubric weighted demand at 20 per cent, Cardano fit at 20 per cent, blockchain need and evidence at 15 per cent each, and buyer access, differentiation and feasibility at 10 per cent each. Scores supported comparison but did not replace judgment. A high score could not override weak evidence or an unresolved buyer objection.
+## How we reached the recommendation
 
-### Evidence base
+### We tested the buyer problem before the technology
 
-The final evidence cut contains:
+We began with a broad list of possible AI opportunities. A use case remained in the study only when it had a plausible buyer, a problem worth solving, a reason to use blockchain and a practical route to market.
 
-| Evidence component | Count | Public treatment |
+The scoring method gave the greatest weight to market demand and Cardano fit. It also considered the need for blockchain, the strength of the evidence, access to buyers, differentiation and feasibility. Scores helped compare use cases. They did not override weak evidence or a serious buyer objection.
+
+### Evidence reviewed
+
+| Evidence component | Count | How it is used publicly |
 |---|---:|---|
-| Public and technical source entries | 75 | Named in the final source register |
-| Controlled claim records | 38 | Population and controls disclosed; exact attribution map retained privately |
+| Public and technical sources | 75 | Named in the source register |
+| Controlled claims | 38 | The claims and controls are described; exact attribution remains private |
 | Comparison cases | 8 | Named in the public review record |
-| Cardano or Cardano-adjacent cases | 12 | Named and assessed in the final matrices |
-| Scored use cases | 12 | Scores, posture and conditions published |
-| Qualifying field records | 33 | Reported by anonymised stakeholder segment |
+| Cardano or Cardano-adjacent cases | 12 | Assessed in the final matrices |
+| Use cases | 12 | Scores, decisions and conditions are published |
+| Field records | 33 | Reported by anonymous stakeholder group |
 
-The eight comparison cases covered Masumi and Sokosumi; x402 on Solana and Base; MPP and Tempo; UCP, ACP and AP2; Visa and Mastercard agent payments; ERC-8004 and ERC-8183; Bittensor, Akash and NuNet; and W3C credentials, OpenID, C2PA and Veridian.
+The comparison cases included Masumi and Sokosumi, x402 on Solana and Base, MPP and Tempo, major agent commerce protocols, Visa and Mastercard initiatives, Ethereum agent standards, specialist AI networks and identity or evidence standards.
 
-The 12 Cardano or adjacent cases covered Masumi, Sokosumi, Cardano x402, Iagon, SingularityNET, NuNet, Rejuve.AI, Veridian, Midnight, Hydra, notary applications and selected AI applications with weak public adoption evidence.
+The Cardano review covered Masumi, Sokosumi, Cardano x402, Iagon, SingularityNET, NuNet, Rejuve.AI, Veridian, Midnight, Hydra, notary applications and other AI applications with limited public adoption evidence.
 
-### Field evidence
+### Interviews and professional discussions
 
-| Reference | Stakeholder segment | Qualifying records | Use in public report |
+| Reference | Stakeholder group | Records | Public use |
 |---|---|---:|---|
-| FE01 | Institutional buyers and adopters | 5 | Segment-level synthesis |
-| FE02 | AI-agent builders and platforms | 6 | Segment-level synthesis |
-| FE03 | Payments and commerce infrastructure | 6 | Segment-level synthesis |
-| FE04 | Cardano ecosystem and operators | 5 | Segment-level synthesis |
-| FE05 | Non-Cardano infrastructure and comparison cases | 5 | Segment-level synthesis |
-| FE06 | Standards, identity, security and assurance | 6 | Segment-level synthesis |
-| Total | Six agreed segments | 33 | No respondent identities or organisation-to-response mapping published |
+| FE01 | Institutional buyers and adopters | 5 | Findings are combined at group level |
+| FE02 | AI agent builders and platforms | 6 | Findings are combined at group level |
+| FE03 | Payment and commerce infrastructure | 6 | Findings are combined at group level |
+| FE04 | Cardano ecosystem and operators | 5 | Findings are combined at group level |
+| FE05 | Non-Cardano infrastructure and comparison cases | 5 | Findings are combined at group level |
+| FE06 | Standards, identity, security and assurance | 6 | Findings are combined at group level |
+| Total | Six stakeholder groups | 33 | No names or organisation-to-response mapping are published |
 
-The fieldwork includes structured calls, expert discussions, conference conversations and professional outreach. Each record contributed direct professional evidence relevant to the agreed research questions and was logged in the controlled research record. The sample is purposive and cannot support population prevalence claims.
+The fieldwork includes structured calls, expert discussions, conference conversations and professional outreach. We used it to understand objections, operating needs and buying criteria. The sample was selected for relevance, so it cannot tell us how common an opinion is across the whole market.
 
-### Credibility standards
+### Evidence controls
 
-The analysis distinguished documented facts, respondent evidence, analytical inference and vendor judgment. Provider claims were not treated as independent validation. Activity was separated from unique users, paid revenue, retention and accepted outcomes. Cardano association was separated from Cardano dependency. Competing explanations and non-chain alternatives remained visible. Dynamic metrics were dated and refreshed where possible before the final evidence cut.
+We kept documented facts, interview evidence, our analysis and vendor claims separate. We did not treat a vendor's own claim as independent proof. We also separated activity from adoption. A transaction count can show that a system is active, but it cannot show how many paying customers use it or whether they are satisfied.
 
-### Confidentiality and AI use
+We protected respondent confidentiality. Names, raw notes, links between organisations and responses, and commercially sensitive information remain in the controlled research record for at least 12 months.
 
-Respondents were handled according to the agreed attribution and confidentiality approach. Raw notes, personal identities, organisation-to-response mappings and commercially sensitive details are not published. The controlled records will be retained for at least 12 months.
+AI tools helped organise sources, compare cases and check consistency. They were not used as evidence and did not decide scores or recommendations. IEI/TKNFRA remains responsible for the report.
 
-AI tools assisted with source triage, organisation, comparison structures, consistency checks and drafting. They were not treated as evidence and did not determine credibility, scores or recommendations. IEI/TKNFRA remains responsible for the analysis and submitted text.
+## Main findings
 
-## Findings
+### AI agent payments are real but Cardano only fits some transactions
 
-### The commercial market is real but blockchain need is selective
+AI agents can now initiate payments and buy digital services through production systems. x402, Stripe, Base, Solana, Tempo, Visa, Mastercard, Google and OpenAI have all developed payment or commerce tools for agents. This is a real market rather than a purely speculative idea. [S03-S15, S40-S45, S52, S71, S78]
 
-Agent payments and agentic commerce have moved into production infrastructure. x402 describes a production-ready, network-neutral payment standard and reports that it has processed millions of transactions. Stripe documents machine payments, while Base, Solana, Tempo, Visa, Mastercard, Google and OpenAI have developed agent-payment or commerce mechanisms. The market evidence is sufficient to reject the view that machine payments are only a speculative narrative. [S03-S15, S40-S45, S52, S71, S78]
+That does not mean every agent transaction needs a public blockchain. Banks, card networks, payment platforms and private authorization systems already handle identity, fraud, refunds and liability in many closed business or consumer settings.
 
-The same evidence does not show that every agent transaction needs a public blockchain. Existing merchant, bank, card and private authorization systems manage identity, fraud, refunds, reconciliation and liability in many consumer and closed-enterprise workflows. A blockchain role is strongest when independent parties need programmable settlement, conditional release, portable value or a shared evidence anchor without placing one counterparty in control. [S12-S24, FE01-FE03, FE06]
+Blockchain becomes more relevant when several independent organisations need funds released under agreed rules or need a shared record that one party cannot change alone. Cardano should focus on these situations and compare itself directly with ordinary escrow, signed records and established payment channels. [S12-S24, FE01-FE03, FE06]
 
-The decision implication is narrow. Cardano should target cross-organisation failure modes and compare its approach with conventional escrow, signed logs and established payment channels. It should not market blockchain use as a default requirement for AI agents.
-
-**Confidence:** High.
-
-### Masumi and Sokosumi are the strongest Cardano proof point
-
-Masumi provides a live Cardano implementation of agent registration, conditional payment, refunds and service records. Sokosumi turns that infrastructure into priced services and an operating task workflow. This combination is the most complete public example of the proposed assurance and conditional-settlement wedge. [S28-S31, S50, S53-S60, S68-S77]
-
-The final refresh found three relevant activity measures:
-
-- the Cardano app profile showed 1,852 Masumi on-chain transactions in the 30 days captured by its 21 October 2026 snapshot [S74];
-- Masumi's press page reported more than 40,000 cumulative on-chain transactions [S76]; and
-- the Sokosumi Serviceplan page displayed 4,229 tasks when accessed on 29 October 2026 while labelling the profile data 27 September 2026 [S77].
-
-These measures are not directly comparable. They use different periods, systems and activity definitions. They may include tests, retries, internal tasks or concentrated users. None of the public sources separates external buyers, paid and unpaid tasks, repeat use, completions, refunds, disputes and accepted outcomes. The findings therefore support live capability and observable activity, not broad commercial adoption.
-
-**Decision implication:** Use Masumi and Sokosumi as the reference beachhead. Make transaction-quality and external-buyer evidence a condition for further funding.
-
-**Confidence:** High for capability and medium-low for commercial adoption.
-
-### Distribution is Cardano's decisive competitive weakness
-
-The leading payment protocols are open and rail-agnostic. Their distribution comes from wallets, facilitators, stablecoin liquidity, SDKs and existing merchant or platform channels. x402 has neutral foundation governance and multi-network support. MPP and Stripe support machine-payment flows. Base, Solana, Tempo and card networks reach larger existing developer and payment ecosystems. [S05-S15, S40-S45, S52, S71, S78]
-
-Field evidence repeatedly identified distribution and integration as more decisive than feature completeness. Builders prefer infrastructure already available through their framework, wallet and provider. Buyers care about reconciliation, refunds, liability and support more than the chain's internal design. [FE02, FE03, FE05]
-
-Cardano has a coherent escrow capability but less visible distribution. A proprietary Cardano agent standard would deepen that disadvantage. The viable route is an adapter and conformance strategy that makes Cardano settlement one implementation option inside existing agent, authorization and payment flows.
-
-**Decision implication:** Test interoperability and integration effort before funding a product build.
+**What this means for the committee:** Support narrowly defined business problems. Avoid a general claim that AI agents need blockchain.
 
 **Confidence:** High.
 
-### Service assurance is the defensible product wedge
+### Masumi and Sokosumi prove that the system works but not that the market is proven
 
-The strongest Cardano use case is the conditional purchase of machine-delivered services where non-delivery, unacceptable delivery or a later dispute matters. The buyer needs protection; the provider needs payment certainty. A bounded smart-contract state can hold funds, record a completion or refund path and provide a durable settlement record. [S29, S44-S45, S50, FE02-FE04]
+Masumi provides agent registration, payment held under agreed conditions, refunds and service records on Cardano. Sokosumi packages this infrastructure into priced services and a working task process. Together, they are the clearest Cardano example found in the study. [S28-S31, S50, S53-S60, S68-S77]
 
-This use case differs from simple micropayments. Plain x402, MPP, prepaid credits or subscriptions may be better for low-value calls with low delivery risk. Conditional settlement is relevant only where the expected benefit exceeds the added wallet, liquidity, integration and dispute burden.
+The final evidence refresh found:
 
-Payment-linked identity and minimal receipts can strengthen the service-assurance flow. Identity should establish the accountable principal, delegated authority and revocation path through interoperable credentials. A receipt should record the minimum references needed to interpret a later audit or dispute. Neither feature provides a unique Cardano category without evidence that it changes a buyer decision.
+- 1,852 Masumi on-chain transactions in the 30 days covered by the Cardano profile snapshot of 21 October 2026 [S74];
+- more than 40,000 cumulative on-chain transactions reported by Masumi [S76]; and
+- 4,229 tasks displayed on the Sokosumi Serviceplan page on 29 October 2026, with profile data labelled 27 September 2026 [S77].
 
-**Decision implication:** Lead with a defined service-completion and refund problem. Treat identity and receipts as integrated controls.
+These figures measure different things over different periods. They may include tests, retries, internal activity or repeated use by a small number of people. Public sources do not separate paying customers, free tasks, completed work, refunds, disputes or repeat purchases.
+
+**What this means for the committee:** Treat Masumi and Sokosumi as a working starting point. Require evidence about customers and outcomes before funding expansion.
+
+**Confidence:** High that the capability works. Medium-low that it has broad commercial adoption.
+
+### Distribution is Cardano's biggest weakness
+
+The leading agent payment protocols work across different networks. Their advantage comes from easy access through software tools, wallets, stablecoins and platforms that developers already use. Base, Solana, Tempo and card networks have stronger existing routes to users. [S05-S15, S40-S45, S52, S71, S78]
+
+Builders told us that ease of integration often matters more than a richer feature set. Buyers focus on refunds, reconciliation, responsibility and support. They rarely choose a service because of the design of its underlying blockchain. [FE02, FE03, FE05]
+
+Cardano has a coherent escrow and refund system, but it does not yet have the same distribution. Creating a separate Cardano standard would make adoption harder. The practical route is to connect Cardano settlement to the standards and payment services that the market already uses.
+
+**What this means for the committee:** Test the real integration effort with an external developer before funding a product build.
+
+**Confidence:** High.
+
+### The best use case protects the purchase of an AI service
+
+The strongest use case is a machine-delivered service where the buyer risks paying for work that is late, incomplete or unacceptable. The provider also needs confidence that payment will arrive after delivery. A smart contract can hold the funds, record whether the parties accepted the result, and support a refund or dispute process. [S29, S44-S45, S50, FE02-FE04]
+
+This protection is unnecessary for every small payment. A subscription, prepaid credit or simple payment may work better for low-value services with little delivery risk. The extra protection only makes commercial sense when it solves a meaningful problem for the buyer or provider.
+
+Identity and receipts can support this service. Identity should show which person or organisation stands behind the agent and how authority can be withdrawn. The receipt should contain only the references needed to understand a later audit or dispute.
+
+**What this means for the committee:** Start with one specific service, delivery condition and refund problem. Keep identity and receipts inside that business process rather than treating them as separate products.
 
 **Confidence:** Medium-high.
 
-### Formal methods support specific controls rather than the whole AI proposition
+### Formal verification helps with specific controls
 
-Cardano documentation supports predictable transaction costs and deterministic script evaluation within defined boundaries. Formal methods can increase confidence in a specified contract, protocol or state transition. [S33-S35, S51]
+Cardano can provide predictable execution for a clearly specified smart contract. Formal verification can increase confidence that a contract or state change follows its written rules. [S33-S35, S51]
 
-Those properties do not prove that an AI agent understood a mandate, intended the correct action, produced a correct off-chain result or complied with every legal requirement. Field evidence favoured least privilege, explicit approval, revocation and interpretable receipts rather than broad claims of verified AI. [FE01, FE06]
+It cannot prove that an AI agent understood its instructions, chose the right action or produced a correct result outside the blockchain. Interviews placed greater value on spending limits, clear approvals, the ability to revoke authority and records that a human can understand. [FE01, FE06]
 
-**Decision implication:** Use formal assurance only when naming the verified artifact, property and boundary. Retire claims that Cardano makes AI safe or verified.
-
-**Confidence:** High.
-
-### Public-chain evidence must remain minimal and privacy-aware
-
-A ledger can establish integrity, ordering and settlement state. It cannot establish the truth of off-chain data or service quality. Full prompts, personal data, confidential business decisions and proprietary outputs should not be placed on a public chain. [S16-S24, S36-S37, S72, FE01, FE06]
-
-Signed logs, C2PA, verifiable credentials, OpenID and other transparency systems are credible alternatives. A Cardano receipt must show why neutral public anchoring creates incremental evidentiary value. Midnight may provide an adjacent privacy path, but it is a separate network and cannot be described as a native Cardano L1 property.
-
-**Decision implication:** Test a minimal receipt and selective-disclosure design with control owners. Route full privacy architecture to the adjacent workstream.
+**What this means for the committee:** Name the exact contract and property being checked. Do not claim that Cardano makes AI safe or verified.
 
 **Confidence:** High.
 
-### Open standards are the route to relevance
+### Public records should contain as little sensitive information as possible
 
-MCP and A2A cover tool access and agent communication. x402 and MPP cover payment initiation. AuthZEN, AP2, FIDO and network controls address authorization and delegated intent. The Linux Foundation and OpenID Foundation provide neutral governance for important parts of this stack. [S03-S18, S44-S45, S71-S72, S78]
+A blockchain can show that a record existed, when events happened and whether a payment reached a stated status. It cannot prove that off-chain information is true or that a service was good. Full prompts, personal information, confidential decisions and proprietary outputs should stay off a public chain. [S16-S24, S36-S37, S72, FE01, FE06]
 
-Cardano should provide a compatible settlement and evidence function rather than attempt to own communication, identity, discovery and payment standards end to end. A credible implementation should publish its interfaces, recovery behaviour and conformance results.
+Signed private records, verifiable credentials and established transparency systems may solve the problem without a blockchain. A Cardano receipt therefore needs to show a clear extra benefit. Midnight may offer a related privacy route, but it is a separate network and should not be described as a feature of Cardano L1.
 
-**Decision implication:** Make interoperability an acceptance criterion for any next engagement.
-
-**Confidence:** High.
-
-### A broad Cardano AI vertical is not supported
-
-Bittensor, Akash, Fetch.ai, Olas and specialised clouds occupy compute, model and agent-market layers. Base, Solana, Tempo and established commerce networks occupy payment and checkout layers. Current Cardano activity outside Masumi and Sokosumi is mainly an adjacent capability, historical association or weak adoption signal. [S38-S48, S61-S66, FE03, FE05]
-
-The evidence does not support direct competition in decentralised compute, model or inference markets, generic AI applications or mainstream consumer checkout. These areas should remain no-go or partner domains unless new buyers identify a Cardano-specific requirement.
-
-**Decision implication:** Do not use broad AI positioning to justify activity that would be equally valid without Cardano.
+**What this means for the committee:** Ask risk and audit owners to review a minimal receipt design. Pass the wider privacy questions to the relevant privacy workstream.
 
 **Confidence:** High.
 
-## Field synthesis
+### Cardano should connect to open standards
 
-| Theme | Field synthesis | Cardano implication | Evidence |
+Existing standards already cover agent communication, tool access, payments, identity and authorization. Cardano does not need to replace them. It needs to show that its settlement or record-keeping function can connect to them reliably. [S03-S18, S44-S45, S71-S72, S78]
+
+A credible implementation should publish the information an external developer needs: interfaces, accepted inputs, what happens when something fails, and evidence that the integration works.
+
+**What this means for the committee:** Make compatibility with open standards a condition of any next engagement.
+
+**Confidence:** High.
+
+### A broad Cardano AI strategy is not supported
+
+Specialist networks already serve AI computing, models and agent marketplaces. Other ecosystems and established commerce networks have stronger positions in payments and checkout. Outside Masumi and Sokosumi, most Cardano examples show technical capability or a historical association rather than clear adoption. [S38-S48, S61-S66, FE03, FE05]
+
+The evidence does not justify direct investment in a Cardano compute market, model market, general AI application platform or mainstream consumer checkout system. These areas should remain outside this strategy unless a buyer identifies a specific need that Cardano uniquely meets.
+
+**What this means for the committee:** Keep investment focused on the narrow service payment and evidence problem.
+
+**Confidence:** High.
+
+## What we learned from the interviews
+
+| Business need | What respondents said | Practical Cardano role | Evidence |
 |---|---|---|---|
-| Accountable principal | Counterparties need to know which person or organisation stands behind an agent and how authority can be revoked | Use public identifiers as anchors for interoperable credentials, not a proprietary identity system | FE01-FE03, FE06 |
-| Runtime authorization | Fine-grained task and spending limits remain active control needs | Enforce a narrow settlement policy while remaining compatible with external authorization systems | FE01-FE03, FE06 |
-| Payment execution | Basic automated payment is becoming widely available; service completion, reversals and liability remain less settled | Differentiate after payment initiation through escrow, refund state and interpretable evidence | FE02-FE03 |
-| Evidence and disputes | Logs support accountability only when an agreed process can interpret them | Anchor minimal commitments and lifecycle events; keep evaluation and confidential evidence off-chain | FE01, FE03, FE06 |
-| Distribution | Builders and buyers prefer infrastructure available through current SDKs, wallets and providers | Make Cardano an implementation option inside open protocols | FE02-FE05 |
-| Privacy and sovereignty | Local models and data sovereignty are important but do not create an automatic settlement need | Treat them as design constraints and prove the transaction role separately | FE01, FE05-FE06 |
-| Formal assurance | Formal verification is valuable for precise controls, contracts and state transitions | Apply it to a specified mandate or escrow artifact rather than AI behaviour generally | FE01, FE06 |
+| Knowing who is responsible | A buyer needs to know which person or organisation stands behind an agent and how its authority can be withdrawn | Link to open identity credentials rather than create a new Cardano identity system | FE01-FE03, FE06 |
+| Controlling what an agent can spend | Organisations need clear limits on tasks and spending | Enforce a narrow payment rule while remaining compatible with external authorization systems | FE01-FE03, FE06 |
+| Making and reversing payments | Basic automated payment is becoming common; refunds and responsibility remain harder | Add escrow, refund status and a record that people can interpret | FE02-FE03 |
+| Handling disputes | A log only helps when the parties agree how to use it | Record the minimum shared events and keep sensitive evidence off-chain | FE01, FE03, FE06 |
+| Reaching users | Builders prefer tools that work with their existing software, wallets and providers | Offer Cardano as one option inside open protocols | FE02-FE05 |
+| Protecting data | Local AI and control over data matter, but do not automatically require blockchain | Treat privacy as a design requirement and prove the payment role separately | FE01, FE05-FE06 |
+| Checking critical rules | Formal verification is useful for precise contracts and state changes | Apply it to a named mandate or escrow contract, not to AI behaviour in general | FE01, FE06 |
 
-## Use-case prioritisation
+## Priority use cases
 
-The final score ranking places escrowed agent-service purchase first at 3.65, followed by conditional API or data access at 3.55 and minimal agent-action or payment receipts at 3.50. The Masumi and Sokosumi marketplace ranks fourth at 3.25, and payment-linked identity ranks fifth at 3.20. The complete scoring and required decision fields appear in the final matrices.
+The scoring placed escrowed purchase of an AI service first at 3.65. Conditional payment for API or data access ranked second at 3.55. A minimal record of an agent action and payment ranked third at 3.50.
 
-The top three remain conditional because their commercial evidence has not reached the buyer and outcome threshold. Compute and model markets score poorly on Cardano fit, evidence, access, differentiation and feasibility even though external demand for those categories exists.
+All three remain conditional because buyer demand and outcome evidence are still too weak. Compute and model markets scored poorly for Cardano even though those markets may grow elsewhere.
 
-## Competitive position
+| Priority | Use case | Why it may matter | What must be proven |
+|---:|---|---|---|
+| 1 | Escrowed purchase of a machine-delivered service | Protects buyers and providers when delivery can fail or be disputed | Independent buyers choose it over simple payment or ordinary escrow |
+| 2 | Conditional API or data payment | Adds refund or delivery protection to higher-value digital services | A buyer accepts the added process and integration effort |
+| 3 | Minimal action and payment receipt | Gives independent organisations a shared record for a later check or dispute | Risk or audit owners accept the receipt and its privacy design |
 
-| Layer | Cardano position | Final rationale | Action |
+## Competitive position in plain language
+
+| Market layer | Cardano's current position | Why | Recommended approach |
 |---|---|---|---|
-| Agent communication and tool access | Partner or irrelevant | Open protocols solve communication without a settlement chain | Support adapters; do not compete |
-| Authorization and delegated intent | Complement | Policy and identity decisions usually occur off-chain; Cardano can enforce a narrow settlement boundary | Define accepted inputs and receipts |
-| Machine-payment execution | Behind on distribution | Leading rails have broader wallet, facilitator, stablecoin and platform reach | Interoperate and focus on transactions with delivery risk |
-| Conditional service settlement | Conditional advantage | Masumi has a live integrated escrow and refund flow | Prove external demand and outcome value |
-| Agent identity and reputation | Supporting feature | Mature standards and better-distributed registries limit uniqueness | Link identity to service history through open standards |
-| Audit receipts and provenance | Conditional advantage | A neutral ledger may help across organisations, but only for minimal shared evidence | Test with control owners and compare non-chain alternatives |
-| Consumer agent checkout | No-go as a broad position | Existing merchant and card infrastructure handles checkout, fraud and refunds | Consider only specific unmet digital-service cases |
-| Compute and model markets | No-go | Specialists have stronger supply, incentives and developer mindshare | Do not invest without a Cardano-specific buyer requirement |
-| Privacy-preserving transactions | Adjacent handoff | Privacy is not a native Cardano L1 property and interoperability remains unproven | Coordinate with the privacy workstream |
+| Agent communication and tool access | No reason to compete | Open protocols already solve this problem | Support connections to those protocols |
+| Authorization and delegated authority | Supporting role | Decisions usually happen outside the blockchain; Cardano can enforce a limited payment rule | Define the inputs Cardano accepts and the receipt it returns |
+| Basic machine payments | Behind on distribution | Other services reach more wallets, developers and platforms | Connect to existing payment systems and focus on transactions with delivery risk |
+| Payment held until service delivery | Possible advantage | Masumi already combines escrow and refunds | Prove that external buyers value the protection |
+| Agent identity and reputation | Supporting feature | Established identity standards have wider reach | Link open credentials to service history |
+| Audit and dispute records | Possible advantage | A shared record may help organisations that do not fully trust one another | Test with risk owners and compare private alternatives |
+| Consumer checkout | No broad case | Existing merchant and card systems already handle checkout, fraud and refunds | Consider only a specific unmet digital service problem |
+| AI computing and model markets | No case today | Specialist networks have stronger supply, incentives and developer communities | Do not invest without a specific Cardano buyer requirement |
+| Private AI transactions | Pass to another workstream | Privacy is not a native Cardano L1 feature and the connection to Midnight remains unproven | Coordinate with the privacy workstream |
 
-## Narrative stress tests
+## Claims Cardano can make
 
-Two claims remain credible with conditions. Cardano can provide assured settlement for machine-delivered services, and it may provide an interoperable receipt and conditional-settlement layer for open agent services. Both require a defined buyer problem, open integration and outcome evidence.
+Two claims remain credible if they are stated carefully:
 
-Two broad claims should be retired. Cardano's formal methods do not make AI safe or verified. Cardano does not currently lead machine-payment distribution and should not be presented as the chain for AI. The final matrices record the required proof, objections and evidence gaps for each claim.
+- Cardano can support payment held under agreed conditions for some machine-delivered services.
+- Cardano may provide a shared, minimal record for organisations that need to review an agent payment or service outcome later.
 
-## Decision gates
+Two claims should be retired:
 
-| Gate | Final answer | Confidence | Decision |
+- Cardano's formal methods make AI safe or verify the quality of AI results.
+- Cardano leads machine payments or should be presented as the chain for AI.
+
+## Answers to the twelve decision questions
+
+| Question | Answer | Confidence | Decision for CPC |
 |---|---|---|---|
-| AI commercial opportunity | Real but selective for open services needing neutral settlement, conditional release or shared evidence | High | Proceed only on narrow cross-organisation workflows |
-| Buyer-relevant technical fit | Predictable execution and programmable escrow can support bounded controls; minimal receipts may support accountability | Medium-high | Tie each claim to a buyer outcome and named artifact |
-| Current activity evidence | Masumi and Sokosumi are the clearest live beachhead; current activity does not prove broad paid adoption | High for capability; medium-low for adoption | Require transaction-quality evidence |
-| Use-case priorities | Escrowed services, conditional API payments and minimal receipts rank highest | Medium-high | Prioritise the three and keep identity integrated |
-| Reachable buyers | Service providers, AI platforms, payment infrastructure, integrators and selected control owners are reachable | Medium | Convert research access into written validation |
-| Competitive position | Cardano can compete only through a focused assurance wedge | High | Partner with open standards and avoid head-on infrastructure categories |
-| Adoption vertical conditions | Independent paying buyers, repeat use, multiple providers, compatible integrations and Cardano-dependent outcomes | High | Use these conditions as funding triggers |
-| Audience credibility | Assured services are credible; broad trusted-AI and AI-chain narratives are not | High | Use precise claims and retire broad claims |
-| Partner pathway | Service operator, wallet or facilitator, stablecoin route, buyer channel and authorization or identity interoperability are required | Medium-high | Require role ownership and incentives before a pilot |
-| Cardano-side value | Potential transaction, stablecoin and developer activity and a higher-assurance reference | Medium-low | Measure only incremental Cardano-dependent value |
-| Go or no-go | Conditional go for the narrow assurance and settlement position; no-go for compute, models and generic AI positioning | Medium-high | Advance only through three evidence-gated engagements |
-| Cross-RFP handoffs | Privacy, payments, identity, interoperability, delivery and wider segmentation belong in adjacent workstreams | High | Apply the handoff memo and retain scope boundaries |
+| Is there a real commercial opportunity? | Yes, but only in selected services where independent parties need payment held under conditions or a shared record | High | Focus on narrow business workflows |
+| Does Cardano fit the buyer need? | It can support clear payment rules and a minimal receipt, but buyers must value the result | Medium-high | Link every technical claim to a buyer outcome |
+| Is there current Cardano activity? | Masumi and Sokosumi are active, but public figures do not prove broad paid adoption | High for capability; medium-low for adoption | Require better information about customers and outcomes |
+| Which use cases rank highest? | Escrowed services, conditional API payments and minimal receipts | Medium-high | Test these first and keep identity as a supporting feature |
+| Can the relevant buyers be reached? | Service providers, AI platforms, payment firms and selected risk owners are reachable | Medium | Convert access into written buyer validation |
+| Can Cardano compete? | Only through a focused service protection and evidence role | High | Work with open standards and avoid crowded infrastructure markets |
+| What would justify further investment? | Paying buyers, repeat use, more than one provider, workable integration and a clear Cardano benefit | High | Use these as funding conditions |
+| Which message is credible? | Cardano can help protect selected AI service payments | High | Use precise claims and retire the broad AI story |
+| Which partners are needed? | Service providers, a wallet or payment facilitator, a stablecoin route, buyers and an identity or authorization provider | Medium-high | Confirm responsibilities and incentives before a pilot |
+| What value returns to Cardano? | Possible transaction, stablecoin and developer activity, plus a useful reference case | Medium-low | Measure only activity caused by the Cardano function |
+| Go or no-go? | Conditional go for service payment protection and minimal evidence; no-go for general AI, compute and model markets | Medium-high | Advance only through the three evidence tests |
+| What belongs in other RFPs? | Privacy, stablecoins, identity, interoperability, delivery partners and wider customer segmentation | High | Use the handoff memo and keep the current scope closed |
 
-## Research-to-action pathway
+## Recommended next work
 
-Three engagements are justified at the next evidence-building stage.
+### 1 Buyer backed service design
 
-1. **Buyer-backed escrowed service design.** Two independent providers and at least three external buyers should define one paid workflow, acceptance criteria and reason to prefer conditional settlement over plain payment or conventional escrow.
-2. **Open-standard integration and conformance.** A non-Cardano builder should complete a documented integration using an existing payment, wallet and stablecoin route. The engagement should measure implementation effort and failure recovery.
-3. **Minimal receipt and assurance review.** Two independent risk or audit owners should assess a privacy-aware receipt schema and compare it with signed private logs and transparency services.
+Define one paid AI service where non-delivery, refund or dispute risk matters. Two independent providers and at least three external buyers should agree on the service, delivery condition and acceptance test.
 
-The Product Committee should not fund implementation unless at least one use case reaches written buyer commitment and the integration path passes a measured feasibility test. A broad AI campaign should wait for repeat paid production use.
+**Proceed when:** at least one buyer commits in writing and explains why payment held under conditions is preferable to a simple payment or ordinary escrow.
 
-## Recommendations
+**Stop when:** buyers prefer a simpler alternative or will not accept the extra integration.
 
-### Recommendation 1
+### 2 External integration test
 
-**Action:** Define one buyer-backed escrowed service workflow before funding a build.
+Ask a developer outside the Cardano ecosystem to connect the service to an existing agent framework, wallet, payment service and stablecoin route. Measure the work required and document how the system handles failures.
 
-**Audience or owner:** CPC or Cardano Foundation, Masumi or Sokosumi, two service providers and three external buyers.
+**Proceed when:** the external developer completes the connection with acceptable effort and the buyer still values the Cardano function.
 
-**Evidence:** Live escrow and refund capability, field evidence on service-completion risk and comparison with marketplace escrow.
+**Stop when:** Cardano adds material complexity without improving the buyer's outcome.
 
-**Uncertainty:** Buyer willingness to accept additional friction or pay for the control.
+### 3 Minimal receipt review
 
-**What changes the recommendation:** Paid buyer commitment strengthens it; consistent preference for simple payment moves it to no-go.
+Ask two independent risk or audit owners to review a privacy-aware receipt. The receipt should contain only the information needed for a named audit, counterparty or dispute decision.
 
-**What cannot be concluded:** Current transaction counts do not prove demand or product-market fit.
+**Proceed when:** the reviewers accept the receipt for a real decision and explain why a private signed record would be insufficient.
 
-### Recommendation 2
+**Stop when:** existing private logs or credentials solve the problem at lower cost.
 
-**Action:** Publish and test an open integration and conformance path.
+The committee should not fund implementation until at least one use case has written buyer commitment and the integration test succeeds. A broad marketing campaign should wait for repeat paid use.
 
-**Audience or owner:** Masumi or Cardano developer teams, payment facilitator, wallet and stablecoin providers and an independent builder.
+## Limits of the evidence
 
-**Evidence:** Market adoption follows open protocols, SDKs and distribution channels.
+The interview sample was selected for relevance and includes different types of conversations. Only five records came from institutional buyers. Public activity data is dynamic and often reported by providers themselves. It does not show standard commercial measures such as paying customers, repeat purchases, revenue, refunds or accepted outcomes.
 
-**Uncertainty:** The Cardano path may still impose greater wallet, liquidity and support burdens.
+The study did not include a deep technical audit, a paid market database or six months of monitoring. It cannot support revenue forecasts, market-share estimates or a claim of proven product-market fit. It supports a strategic decision and a practical plan for gathering the missing evidence.
 
-**What changes the recommendation:** Independent low-friction integration strengthens it; persistent additional effort without buyer value weakens it.
+Formal verification only applies to a clearly specified contract or system property. It does not prove AI behaviour. Cardano-adjacent projects may also operate without depending on Cardano L1.
 
-**What cannot be concluded:** Compatibility alone does not establish adoption.
+## Supporting records
 
-### Recommendation 3
+The [final matrices](./milestone-4-final-matrices) contain the detailed scoring, audience, competitive, activity and decision tables. The [source register](./milestone-4-source-register) names all 75 public and technical sources. The controlled claim ledger and respondent records remain available to approved reviewers under the agreed confidentiality rules.
 
-**Action:** Test a minimal assurance receipt with independent control owners.
+## Final conclusion
 
-**Audience or owner:** Risk or audit owners, enterprise integrator, privacy specialist and Cardano anchoring provider.
+Cardano has a credible but limited opportunity in AI agent commerce. It may help when a buyer wants payment held until an AI service meets agreed conditions and when independent organisations need a simple shared record of the transaction.
 
-**Evidence:** Field evidence on accountability and public standards for credentials and signed evidence.
+Masumi and Sokosumi show that this can work technically. They do not yet prove sustained demand from independent paying customers. Cardano also starts with a weaker route to market than larger payment and developer ecosystems.
 
-**Uncertainty:** Existing private logs or credentials may meet the requirement at lower cost.
-
-**What changes the recommendation:** Accepted use in a real audit, counterparty or dispute decision strengthens it; a complete non-chain substitute moves it to no-go.
-
-**What cannot be concluded:** A receipt cannot prove AI result correctness or regulatory compliance.
-
-## Limitations
-
-The field sample is purposive. It includes different interaction formats and only five institutional buyer records. Public metrics are dynamic and often provider-reported. The activity data does not reveal common commercial measures. Several standards and products remain early or fast-moving. A public ledger cannot prove off-chain truth. Formal methods apply to specified artifacts rather than AI behaviour generally. Cardano-adjacent projects may not depend on Cardano L1.
-
-The study did not perform the optional deep technical audit, use a paid market database or run six-month monitoring. It therefore supports a strategic posture and defined validation tests. It does not support revenue forecasts, market-share estimates or a claim of proven product-market fit.
-
-## Supporting evidence records
-
-The [final matrices](./milestone-4-final-matrices) contain the complete use-case, adoption, audience, competitive, activity, narrative, decision-gate and limitations tables. The [final source register](./milestone-4-source-register) names all 75 public and technical sources used for this evidence cut. The controlled claim ledger and respondent records remain available to approved reviewers under the agreed confidentiality boundary.
-
-## Conclusion
-
-Cardano has one credible route into AI-agent commerce: a narrow assurance and conditional-settlement function for open machine-delivered services. The route is plausible because Masumi and Sokosumi provide live capability and because service completion, refunds and shared evidence remain less settled than basic payment initiation.
-
-The route remains conditional because Cardano trails on distribution and the public evidence does not prove independent buyer demand or repeat paid outcomes. The correct next step is targeted evidence building. If buyers, integration and Cardano-dependent outcomes pass the stated thresholds, the Product Committee can consider bounded implementation funding. If they do not, the AI thesis should move to monitor or no-go rather than expand through narrative.
-
+The next step is therefore a small evidence-building programme, not a full product build. The committee should proceed only if buyers commit, an external developer can integrate the service without excessive effort, and the Cardano record changes a real business decision. If those tests fail, the committee should move the idea to monitor or no-go.
